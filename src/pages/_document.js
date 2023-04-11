@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head >
-        <title>Create Next App</title>
+        <title>Oscarmild | GK</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
