@@ -20,7 +20,7 @@ const about = () => {
                         <div className='col-span-3 flex flex-col items-start justify-start'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>Biography</h2>
                             <p className='font-medium'>
-                            Hi, I'm Gopi Krishna. I am the founder and chairman of Agrigrow Tech Solutions. I was born and raised in India, and after completing my high school education, I pursued my passion for technology by obtaining a bachelor's degree in Computer Science from Osmania University.
+                            Hi, I am Gopi Krishna. I am the founder and chairman of Agrigrow Tech Solutions. I was born and raised in India, and after completing my high school education, I pursued my passion for technology by obtaining a bachelors degree in Computer Science from Osmania University.
                             </p>
                             <p className='my-1 font-medium'>
                             As an entrepreneur, I have always been driven by a desire to make a positive impact on the world. I founded Agrigrow Tech Solutions with the vision of revolutionising the agricultural industry and dairy industry through the use of cutting-edge technology.
