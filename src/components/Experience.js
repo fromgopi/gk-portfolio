@@ -5,17 +5,23 @@ const AnimatedNumber = ({value}) => {
     const ref = useRef(null);
     const motionValue = useMotionValue(0)
     const springValue = useSpring(motionValue, {duration: 3000 })
-    const isInView = useInView({ref})
+    const isInView = useInView(ref)
     useEffect(() => {
         if(isInView) {
             motionValue.set(value);
         }
     }, [isInView, value, motionValue]);
 
-    return(
-        <span>
+    useEffect(() => {
+        springValue.on("change", (latest) => {
+            if(ref.current && latest.toFixed(0) < value) {
+                ref.current.textContent = latest.toFixed(0);
+            }
+        })
+    }, [springValue, value])
 
-        </span>
+    return(
+        <span ref={ref}></span>
     )
 }
 
@@ -24,7 +30,7 @@ const Experience = () => {
         <>
         <div className='flex flex-col items-end justify-center'>
             <span className='inline-block text-7xl font-bold'>
-                2+
+                <AnimatedNumber value={2} />+
             </span>
             <h2 className='text-xl font-medium capitalize text-dark/75'>Startup Experience</h2>
         </div>
