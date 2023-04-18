@@ -21,7 +21,7 @@ const AnimatedNumber = ({value}) => {
     }, [springValue, value])
 
     return(
-        <span ref={ref}></span>
+        <span ref={ref}>&gt;</span>
     )
 }
 
