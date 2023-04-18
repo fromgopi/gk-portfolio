@@ -33,7 +33,7 @@ const about = () => {
                             <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark'/>
                             <Image alt='Oscarmild-Profile' src={ProfilePic} className='w-full h-auto rounded-2xl'/>
                         </div>
-                        <div>
+                        <div className='col-span-2 flex flex-col space-y-2 items-end justify-between'>
                             <Experience/>
                         </div>
                     </div>
