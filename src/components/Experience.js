@@ -36,7 +36,7 @@ const Experience = () => {
         </div>
         <div className='flex flex-col items-end justify-center'>
             <span className='inline-block text-7xl font-bold'>
-                40+
+                <AnimatedNumber value={41} />+
             </span>
             <h2 className='text-xl font-medium capitalize text-dark/75'>Projects completed</h2>
         </div>
