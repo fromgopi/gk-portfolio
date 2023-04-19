@@ -6,6 +6,7 @@ import React from 'react'
 import ProfilePic from '../../public/images/profile/profile-pic-2.jpeg'
 import Experience from '@/components/Experience'
 import Biography from '@/components/Biography'
+import Skills from '@/components/Skills'
 
 const about = () => {
     return (
@@ -35,6 +36,9 @@ const about = () => {
                         </div>
                     </div>
                     {/* End of Profile section */}
+
+                    {/* Skills section start */}
+                    <Skills />
 
                 </Layout>
             </main>
