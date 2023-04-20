@@ -23,13 +23,6 @@ const Skills = () => {
         <h2 className='font-bold text-8xl mt-64 w-full text-center'>Skill</h2>
         <div className='w-full h-screen relative flex items-center 
             justify-center rounded-full bg-circularLight'>
-            
-            {/* <motion.div className='flex items-center justify-center 
-                rounded-full font-semibold  bg-dark text-light p-8 shadow-dark cursor-move'
-                whileHover={{scale:1.03}}
-            >
-                    Web
-            </motion.div> */}
             <Skill name='Web' x="0vw" y="0vw" />
             <Skill name='HTML' x="-22vw" y="2vw" />
             <Skill name='SpringBoot' x="20vw" y="6vw" />
