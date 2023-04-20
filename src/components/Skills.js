@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Skill = ({name, x, y}) => {
     return(
         <motion.div className='flex items-center justify-center 
-                rounded-full font-semibold  bg-red-600 text-light py-3 px-6
+                rounded-full font-semibold  bg-black text-light py-3 px-6
                 shadow-dark cursor-move absolute'
                 whileHover={{scale:1.03}}
                 initial={{x:0,y:0}}
