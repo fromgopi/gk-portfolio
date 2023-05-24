@@ -31,22 +31,22 @@ const Experience = () => {
             <div className='w-[75%] mx-auto relative'>
                 <div className='absolute left-8 top-0 w-[4px] h-full bg-red-700 origin-top'/>
                 <ul className='w-full flex flex-col items-start justify-between ml-4'>
-                    <Details 
+                    <Details
                         position="Software Engineer" company="Portea"
                         time="2017-2019" address="Bangalore India" companyLink="www.portea.com"
                         work="Worked as software engineer and primarily responsible for developing standalone features which are used to migrate offline business to online"
                     />
-                    <Details 
+                    <Details
                         position="Software Engineer" company="Portea"
                         time="2017-2019" address="Bangalore India" companyLink="www.portea.com"
                         work="Worked as software engineer and primarily responsible for developing standalone features which are used to migrate offline business to online"
                     />
-                    <Details 
+                    <Details
                         position="Software Engineer" company="Portea"
                         time="2017-2019" address="Bangalore India" companyLink="www.portea.com"
                         work="Worked as software engineer and primarily responsible for developing standalone features which are used to migrate offline business to online"
                     />
-                    <Details 
+                    <Details
                         position="Software Engineer" company="Portea"
                         time="2017-2019" address="Bangalore India" companyLink="www.portea.com"
                         work="Worked as software engineer and primarily responsible for developing standalone features which are used to migrate offline business to online"
