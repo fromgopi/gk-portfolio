@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
 import ProfilePic from '../../public/images/profile/profile-pic-2.jpeg'
-import Experience from '@/components/Experience'
+import Exp from '@/components/Exp'
 import Biography from '@/components/Biography'
 import Skills from '@/components/Skills'
 
@@ -32,7 +32,7 @@ const about = () => {
 
                         {/* Experience Div */}
                         <div className='col-span-2 flex flex-col space-y-2 items-end justify-between'>
-                            <Experience/>
+                            <Exp/>
                         </div>
                     </div>
                     {/* End of Profile section */}
