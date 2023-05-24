@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from 'react'
 import { motion, useScroll } from 'framer-motion'
+import LiIcon from './LiIcon'
 
 const Details = ({position, company, companyLink, time, address, work}) => {
     return(
         <li className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+            <LiIcon/>
             <div>
                 <h3 className='capitalize font-bold text-2xl'>{position}&nbsp;<a href={companyLink}
                 target='_blank'
@@ -15,6 +17,10 @@ const Details = ({position, company, companyLink, time, address, work}) => {
     )
 }
 
+/**
+ * Experience component
+ * @returns 
+ */
 const Experience = () => {
     const ref = useRef(null);
     const {scrollYProgress} = useScroll(
