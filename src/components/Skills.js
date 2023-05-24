@@ -34,10 +34,6 @@ const Skills = () => {
             <Skill name='Spark' x="0vw" y="-20vw" />
             <Skill name='Firebase' x="-25vw" y="19vw" />
             <Skill name='go' x="18vw" y="18vw" />
-            
-        </div>
-        <div>
-            <Experience />
         </div>
         </>
     )

@@ -7,6 +7,8 @@ import ProfilePic from '../../public/images/profile/profile-pic-2.jpeg'
 import Exp from '@/components/Exp'
 import Biography from '@/components/Biography'
 import Skills from '@/components/Skills'
+import Experience from '@/components/Experience'
+import Education from '@/components/Education'
 
 const about = () => {
     return (
@@ -39,7 +41,13 @@ const about = () => {
 
                     {/* Skills section start */}
                     <Skills />
-
+                    {/* End of Skills Section */}
+                    {/* Start of Exp section */}
+                    <Experience/>
+                    {/* End of Exp section */}
+                    {/* Start of Education */}
+                    <Education />
+                    {/* End of Education */}
                 </Layout>
             </main>
         </>
