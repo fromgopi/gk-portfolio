@@ -52,11 +52,10 @@ const Education = () => {
                         Intelligence."
                     />
                     <Details
-                        type="Bachelor of Engineering Computer Science"
-                        time="2012-2016"
-                        place="Osmania University"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence."
+                        type="PG Diploma in Financial Markets"
+                        time="2019-2021"
+                        place="National Stock Exchange"
+                        info="Relevant courses included Financial Services, Financial Modeling, Exchange Traded Funds and Reseach in Equities and Derivates"
                     />
                     <Details
                         type="Bachelor of Engineering Computer Science"
